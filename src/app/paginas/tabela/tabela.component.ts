@@ -17,14 +17,16 @@ export class TabelaComponent implements OnInit {
       nome: 'Desktop',
       descricao: 'Computador de Mesa',
       preco: 2000.00,
-      estoque: 1
+      estoque: 1,
+      cpf: 12345678910
     })
     this.itensLoja.push({
       id: 2,
       nome: 'Notebook',
       descricao: 'Computador Portátil',
       preco: 2800.00,
-      estoque: 1
+      estoque: 1,
+      cpf: 12345678910
     })
   }
 

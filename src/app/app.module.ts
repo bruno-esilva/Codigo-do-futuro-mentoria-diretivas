@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './paginas/home/home.component';
 import { SobreComponent } from './paginas/sobre/sobre.component';
 import { TabelaComponent } from './paginas/tabela/tabela.component';
+import { CpfPipe } from './tabela/pipe/cpf.pipe';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { TabelaComponent } from './paginas/tabela/tabela.component';
     HomeComponent,
     SobreComponent,
     TabelaComponent,
+    CpfPipe,
   ],
   imports: [
     BrowserModule,

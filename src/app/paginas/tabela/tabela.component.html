@@ -30,6 +30,8 @@
                     aria-label="Start date: activate to sort column ascending" style="width: 184.547px;">Preço</th>
                   <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
                     aria-label="Salary: activate to sort column ascending" style="width: 167.062px;">Estoque</th>
+                    <th class="sorting" tabindex="0" aria-controls="dataTable" rowspan="1" colspan="1"
+                    aria-label="Salary: activate to sort column ascending" style="width: 167.062px;">CPF</th>
                 </tr>
               </thead>
               <tfoot>
@@ -39,6 +41,7 @@
                   <th rowspan="1" colspan="1">Descrição</th>
                   <th rowspan="1" colspan="1">Preço</th>
                   <th rowspan="1" colspan="1">Estoque</th>
+                  <th rowspan="1" colspan="1">CPF</th>
                 </tr>
               </tfoot>
               
@@ -49,6 +52,7 @@
                   <td>{{item.descricao}}</td>
                   <td>{{item.preco}}</td>
                   <td>{{item.estoque}}</td>
+                  <td>{{item.cpf | cpf}}</td>
                 </tr>
               </tbody>
             </table>
